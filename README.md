@@ -48,4 +48,8 @@ Scroll down for the actual assignment!
 - [Chai and JS testing](http://chaijs.com/guide/) (we used the BDD assertion style found in http://chaijs.com/guide/styles/ section "Expect")
 
 ## Assignment
-
+1. Fork and clone this repository
+2. Add a directory called `memory`
+3. `cd` into `memory`
+4. Build a memory game like [this one](http://www.mathsisfun.com/games/memory/), except that instead of images you are going to use strings (numbers, words, etc are all fine)
+5. Stage, commit, and push to your fork once done
