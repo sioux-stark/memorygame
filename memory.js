@@ -49,7 +49,7 @@ function showCard(elem) {
 		if (cardOne == cardTwo){
 			matchCount++;
 			if (matchCount == 8){
-				alert("you won, you are awesome!");
+				alert("you won!");
 			}
 			}else{
 			setTimeout(function(){

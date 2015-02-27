@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+ 
   <script type="text/javascript" src="memory.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
   <title>memory</title>
 </head>
 <body>
+  <div id= "container">
   <h1> Memory </h1>
-  <table id="container">
+  <table id="tableContainer">
     <tr id="buttons_row_1" class="row">
        <td id="squareOne" data-card="1" class="button" onclick="showCard(this)"></td>
        <td id="squareTwo" data-card="2" class="button" onclick="showCard(this)"></td>
@@ -36,13 +38,8 @@
         <td id="squareSixteen" data-card="0" class="button" onclick="showCard(this)"></td>
        </tr> 
 </table>
-
-<input type="submit" value="play again!"onClick="window.location.reload()">
-    
- 
-  
-  
-
+<input type="submit" class="submit" value="play again!" align="center" onClick="window.location.reload()">
+</div>    
 </body>
 
 </html>
